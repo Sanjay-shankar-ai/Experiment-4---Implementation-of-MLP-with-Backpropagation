@@ -121,7 +121,7 @@ Normalize our dataset.
 ### Developed by : S.sanjay
 ### Reg.No : 212221230086,
 Problem to implement a Multilayer Perceptron for Multi class-classification.
-
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -174,24 +174,25 @@ print(predictions)
 print(confusion_matrix(y_test,predictions))
 
 print(classification_report(y_test,predictions))
+```
 ## OUTPUT 
 
-data.head():
+### data.head():
 ![out1 (1)](https://user-images.githubusercontent.com/94231938/201013768-99cba883-e18c-4647-89d8-2f249d75f3bf.png)
 
-x.head():
+### x.head():
 ![out2](https://user-images.githubusercontent.com/94231938/201013775-829092cd-9edc-4cc0-8abf-2cef1a51e12f.png)
 
-y.head():
+### y.head():
 ![out3](https://user-images.githubusercontent.com/94231938/201013822-bdec1216-2667-4963-b485-0eaef6eee35f.png)
 
-Printing the predictions:
+### Printing the predictions:
 ![out4](https://user-images.githubusercontent.com/94231938/201013831-085518e4-31b4-46f2-bbf2-20cb5505b938.png)
 
-Confusion matrix:
+### Confusion matrix:
 ![out5](https://user-images.githubusercontent.com/94231938/201013843-917f0779-6964-4dc5-a697-b143e387cca5.png)
 
-Classification report():
+### Classification report():
 ![out6](https://user-images.githubusercontent.com/94231938/201013857-6d60f2ef-1c3f-49fa-950a-dde6f2886211.png)
 
 ## RESULT
